@@ -62,6 +62,11 @@ define('NONCE_SALT',       $_ENV['CEF_WP_NONCE_SALT']);
 // stay under version control - DRyan
 define('DISALLOW_FILE_EDIT', true);
 
+// Setup for SMTP email sending
+
+define( 'WPMS_ON', true );
+define( 'WPMS_SMTP_PASS', $_ENV['CEF_WP_SMTP_PASSWORD'] );
+
 /**#@-*/
 
 /**
