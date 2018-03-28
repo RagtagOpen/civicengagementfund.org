@@ -58,6 +58,10 @@ define('SECURE_AUTH_SALT', $_ENV['CEF_WP_SECURE_AUTH_SALT']);
 define('LOGGED_IN_SALT',   $_ENV['CEF_WP_LOGGED_IN_SALT']);
 define('NONCE_SALT',       $_ENV['CEF_WP_NONCE_SALT']);
 
+// This turns off editing of themes and plugins in the admin so that they
+// stay under version control - DRyan
+define('DISALLOW_FILE_EDIT', true);
+
 /**#@-*/
 
 /**
