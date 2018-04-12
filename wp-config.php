@@ -41,6 +41,12 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /**#@+
+ * AWS Credentials
+ */
+define('AS3CF_AWS_ACCESS_KEY_ID', $_ENV['CEF_AS3CF_AWS_ACCESS_KEY_ID']);
+define('AS3CF_AWS_SECRET_ACCESS_KEY', $_ENV['CEF_AS3CF_AWS_SECRET_ACCESS_KEY']);
+
+/**#@+
  * Authentication Unique Keys and Salts.
  *
  * Change these to different unique phrases!
