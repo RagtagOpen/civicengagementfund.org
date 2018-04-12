@@ -67,6 +67,9 @@ define('DISALLOW_FILE_EDIT', true);
 define( 'WPMS_ON', true );
 define( 'WPMS_SMTP_PASS', $_ENV['CEF_WP_SMTP_PASSWORD'] );
 
+// Disable in-admin updates since we're version controlled
+define( 'WP_AUTO_UPDATE_CORE', false );
+
 /**#@-*/
 
 /**
