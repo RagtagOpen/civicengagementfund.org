@@ -12,6 +12,7 @@
     "wpackagist-plugin/minimum-viable-sharing-meta": "^0.0.4",
     "wpackagist-plugin/wp-mail-smtp": "^1.2",
     "wpackagist-plugin/akismet": "^4.0",
-    "wpackagist-plugin/jetpack": "^6.0"
+    "wpackagist-plugin/jetpack": "^6.0",
+    "wpackagist-plugin/wordpress-importer": "^0.6.4"
   }
 }
