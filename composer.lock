@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "38755ac42e6359eb864f66fa8b9d2f0f",
+    "content-hash": "6cfd4caa346741d805811bbd4e2926fe",
     "packages": [
         {
             "name": "composer/installers",
@@ -128,15 +128,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "4.0.3",
+            "version": "4.0.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/4.0.3"
+                "reference": "tags/4.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.0.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.0.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -165,6 +165,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
+        },
+        {
+            "name": "wpackagist-plugin/gutenberg",
+            "version": "2.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gutenberg/",
+                "reference": "tags/2.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gutenberg.2.9.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gutenberg/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
