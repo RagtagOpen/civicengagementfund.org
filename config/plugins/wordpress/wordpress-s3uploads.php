@@ -19,3 +19,8 @@ if (!empty(getenv('AWS_S3_URL'))) {
 
 // S3 Uploads - Cache will expire after 30 days
 define('S3_UPLOADS_HTTP_CACHE_CONTROL', 30 * 24 * 60 * 60);
+
+if(!empty(getenv('AS3CF_AWS_ACCESS_KEY_ID')) && !empty(getenv('AS3CF_AWS_SECRET_ACCESS_KEY'))):
+  define('AS3CF_AWS_ACCESS_KEY_ID', getenv('AS3CF_AWS_ACCESS_KEY_ID'));
+  define('AS3CF_AWS_SECRET_ACCESS_KEY', getenv('AS3CF_AWS_SECRET_ACCESS_KEY'));
+endif;
