@@ -14,6 +14,7 @@
     "wpackagist-plugin/akismet": "^4.0",
     "wpackagist-plugin/jetpack": "^6.0",
     "wpackagist-plugin/wordpress-importer": "^0.6.4",
-    "wpackagist-plugin/gutenberg": "^2.9.2"
+    "wpackagist-plugin/gutenberg": "^2.9.2",
+    "wpackagist-plugin/updraftplus": "^1.14.11"
   }
 }

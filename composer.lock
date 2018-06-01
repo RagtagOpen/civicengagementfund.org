@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cfd4caa346741d805811bbd4e2926fe",
+    "content-hash": "b5101d75b9fcc5415f49badc5ecce172",
     "packages": [
         {
             "name": "composer/installers",
@@ -225,6 +225,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/minimum-viable-sharing-meta/"
+        },
+        {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.14.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.14.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.14.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
