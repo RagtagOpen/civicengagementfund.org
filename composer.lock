@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e8c5149a9e756a5925736acda54d940",
+    "content-hash": "e0c5c24fceb8d86c080c840cd01c27bb",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3888,15 +3888,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.4.0",
+            "version": "1.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.4.0"
+                "reference": "tags/1.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.3.8.zip",
                 "reference": null,
                 "shasum": null
             },
